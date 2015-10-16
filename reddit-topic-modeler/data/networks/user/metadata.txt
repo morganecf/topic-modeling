@@ -1,0 +1,22 @@
+type: network type (comment, submission, user)
+weighted: if the network edge weights are weighted by total user activity 
+#hubs_removed: number of hubs that were removed from original network 
+method: clustering method (either infomap or fast community detection)
+normalized: if the network edge weights were normalized or not 
+#clusters: number of clusters produced 
+#nodes: number of nodes in network 
+avg_cluster_size: average cluster size
+median_cluster_size: median cluster size 
+#size_one-two: the number of clusters that contain 1 or 2 subreddits 
+size_one-two%: percentage of clusters that contain 1-2 subreddits 
+largest: largest cluster size 
+largest%: percentage of nodes taken up by the largest cluster 
+second_largest: second largest cluster size 
+second%: percentage of nodes taken up by the second largest cluster 
+third_largest: third largest cluster size 
+third%: percentage of nodes taken up by the third largest cluster 
+#>100: number of clusters that contain more than 100 subreddits 
+>100%: percentage of clusters that have more than 100 subreddits 
+#<5: number of clusters that contain less than 5 subreddits 
+<5%: percentage of clusters that have less than 5 subreddits 
+

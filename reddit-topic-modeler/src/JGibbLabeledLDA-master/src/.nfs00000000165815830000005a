@@ -1,0 +1,20 @@
+### LDA MODELS 125
+lib='.:../lib/args4j-2.0.6.jar:../lib/trove-3.0.3.jar'
+java -cp $lib jgibblda.LDA -est -ntopics 125 -dfile jgibbs-lda.txt.gz -dir ../../../data/jgibbs/monthly/top125/2014-03 -model modelLDA
+python ../../notify.py morganeciot@gmail.com 'lda model 03' enterprise
+java -cp $lib jgibblda.LDA -est -ntopics 125 -dfile jgibbs-lda.txt.gz -dir ../../../data/jgibbs/monthly/top125/2014-06 -model modelLDA
+python ../../notify.py morganeciot@gmail.com 'lda model 06' enterprise
+java -cp $lib jgibblda.LDA -est -ntopics 125 -dfile jgibbs-lda.txt.gz -dir ../../../data/jgibbs/monthly/top125/2014-09 -model modelLDA
+python ../../notify.py morganeciot@gmail.com 'lda model 09' enterprise
+java -cp $lib jgibblda.LDA -est -ntopics 125 -dfile jgibbs-lda.txt.gz -dir ../../../data/jgibbs/monthly/top125/2014-08 -model modelLDA
+python ../../notify.py morganeciot@gmail.com 'lda model 08' enterprise
+java -cp $lib jgibblda.LDA -est -ntopics 125 -dfile jgibbs-lda.txt.gz -dir ../../../data/jgibbs/monthly/top125/2014-11 -model modelLDA
+python ../../notify.py morganeciot@gmail.com 'lda model 11' enterprise
+
+### LDA INFERENCE 125
+java -cp '.:../lib/args4j-2.0.6.jar:../lib/trove-3.0.3.jar' jgibblda.LDA -inf -dir ../../../data/jgibbs/monthly/top125/2014-03 -model modelLDA -dfile tweets_gender_temporal-lda.csv.gz
+python ../../notify.py morganeciot@gmail.com 'lda inf 03' enterprise
+java -cp '.:../lib/args4j-2.0.6.jar:../lib/trove-3.0.3.jar' jgibblda.LDA -inf -dir ../../../data/jgibbs/monthly/top125/2014-06 -model modelLDA -dfile tweets_gender_temporal-lda.csv.gz
+python ../../notify.py morganeciot@gmail.com 'lda inf 06' enterprise
+java -cp '.:../lib/args4j-2.0.6.jar:../lib/trove-3.0.3.jar' jgibblda.LDA -inf -dir ../../../data/jgibbs/monthly/top125/2014-09 -model modelLDA -dfile tweets_gender_temporal-lda.csv.gz
+python ../../notify.py morganeciot@gmail.com 'lda inf 09' enterprise

@@ -1,0 +1,156 @@
+Cluster size: 3093
+	Degree: 1465	pics
+	Degree: 1347	AskReddit
+	Degree: 1317	funny
+	Degree: 744	videos
+	Degree: 462	WTF
+	Degree: 361	gifs
+	Degree: 335	AdviceAnimals
+	Degree: 330	aww
+	Degree: 227	switcharoo
+	Degree: 213	mildlyinteresting
+	Degree: 190	ShitRedditSays
+	Degree: 157	retiredgif
+	Degree: 151	undelete
+	Degree: 148	circlebroke2
+	Degree: 145	TransphobiaProject
+	Degree: 140	dataisbeautiful
+	Degree: 136	askreddit
+	Degree: 127	photoshopbattles
+	Degree: 113	bestofTLDR
+	Degree: 98	TwoXChromosomes
+	Degree: 92	doublespeakprivilege
+	Degree: 89	nocontext
+	Degree: 86	fffffffuuuuuuuuuuuu,nottheonion
+	Degree: 85	europe
+	Degree: 84	badlinguistics
+	Degree: 83	Unexpected
+Cluster size: 2694
+	Degree: 982	newreddits
+	Degree: 785	wowthissubexists
+	Degree: 528	newsubreddits
+	Degree: 451	promotereddit
+	Degree: 159	promote
+	Degree: 110	subreddit
+Cluster size: 1730
+	Degree: 643	bestof
+	Degree: 479	todayilearned
+	Degree: 374	worldnews
+	Degree: 313	politics
+	Degree: 285	DepthHub
+	Degree: 261	technology
+	Degree: 245	news
+	Degree: 151	askscience
+	Degree: 150	agitation
+	Degree: 147	explainlikeimfive
+	Degree: 141	reddit.com
+	Degree: 136	ShitAmericansSay
+	Degree: 128	AskHistorians
+	Degree: 122	notcirclejerk
+	Degree: 117	PanicHistory,alltimetops
+	Degree: 105	NolibsWatch,Anarcho_Capitalism
+	Degree: 98	Anarchism
+	Degree: 95	TrueReddit
+	Degree: 90	LifeProTips
+	Degree: 86	changemyview
+	Degree: 84	PoliticalModeration
+	Degree: 83	EnoughLibertarianSpam
+	Degree: 81	Futurology,Shitstatistssay
+Cluster size: 1333
+	Degree: 136	programming
+	Degree: 111	books
+	Degree: 87	gamedev
+	Degree: 83	qeew
+	Degree: 82	Android
+Cluster size: 1328
+	Degree: 647	gaming
+	Degree: 153	Games
+	Degree: 110	pokemon
+	Degree: 87	pcmasterrace
+Cluster size: 964
+	Degree: 212	redditrequest
+	Degree: 159	SubredditDrama
+	Degree: 154	MetaHub
+	Degree: 125	ShirtRedditSays
+	Degree: 112	Drama
+	Degree: 103	MensRights
+	Degree: 101	SRSMeta
+	Degree: 96	self
+Cluster size: 910
+	Degree: 1296	IAmA
+Cluster size: 865
+	Degree: 299	wtf
+	Degree: 128	cringepics
+	Degree: 112	cringe
+	Degree: 102	india
+Cluster size: 846
+	Degree: 167	to
+	Degree: 116	guns
+Cluster size: 804
+	Degree: 368	ed
+	Degree: 285	atheism
+	Degree: 109	4chan
+	Degree: 108	motorcycles
+Cluster size: 753
+	Degree: 700	Serendipity
+	Degree: 113	nba
+Cluster size: 679
+	Degree: 256	thegreatsub
+	Degree: 188	subredditoftheday
+	Degree: 156	Music
+Cluster size: 635
+	Degree: 118	hockey
+	Degree: 97	bestof2012
+	Degree: 91	badphilosophy
+	Degree: 83	philosophy
+Cluster size: 553
+	Degree: 103	woahdude
+Cluster size: 539
+	Degree: 219	Bitcoin
+	Degree: 214	dogecoin
+Cluster size: 492
+	Degree: 165	Minecraft
+	Degree: 90	Civcraft
+Cluster size: 487
+	Degree: 268	science
+	Degree: 91	australia
+	Degree: 83	space
+Cluster size: 486
+	Degree: 131	nfl
+	Degree: 84	baseball
+Cluster size: 471
+	Degree: 115	episodehub
+	Degree: 89	adviceanimals
+Cluster size: 437
+	Degree: 208	movies
+	Degree: 87	bicycling
+	Degree: 83	AddSubs
+Cluster size: 415
+	Degree: 240	trees
+Cluster size: 382
+	Degree: 90	DotA2
+Cluster size: 373
+	Degree: 169	fitnesscirclejerk
+	Degree: 93	Fitness
+Cluster size: 369
+	Degree: 174	wehavetoomanymlpsubs
+	Degree: 117	mylittlepony
+Cluster size: 337
+	Degree: 162	conspiracy
+Cluster size: 293
+Cluster size: 252
+Cluster size: 243
+Cluster size: 235
+	Degree: 159	soccer
+Cluster size: 226
+Cluster size: 224
+	Degree: 95	food
+Cluster size: 209
+	Degree: 86	with
+Cluster size: 175
+	Degree: 126	canada
+Cluster size: 171
+Cluster size: 163
+Cluster size: 141
+	Degree: 140	leagueoflegends
+Cluster size: 104

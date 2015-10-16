@@ -1,0 +1,4 @@
+5 nodes (unique subreddits)
+182 edges
+Gone through 5 out of 125 input subreddits
+

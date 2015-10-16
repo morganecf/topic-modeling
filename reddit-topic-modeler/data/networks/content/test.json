@@ -1,0 +1,1 @@
+{"nodes": [{"name": "politics"}, {"name": "soccer"}, {"name": "nfl"}], "links": [{"source": 0, "target": 1, "weight": 9606}, {"source": 1, "target": 2, "weight": 9962}, {"source": 0, "target": 2, "weight": 7566}]}

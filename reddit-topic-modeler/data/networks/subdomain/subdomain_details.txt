@@ -1,0 +1,4 @@
+Number of nodes (subreddits) in subdomain network: 149838
+Number of edges in subdomain network: 90101
+Total number of subdomains: 9247160
+Number of unique subdomains: 351940

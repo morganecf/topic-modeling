@@ -1,0 +1,84 @@
+llda="/jgibbs-llda.txt"
+lda="/jgibbs-lda.txt"
+send125="LLDA+LDA top125 "
+send500="LLDA+LDA top500 "
+lib='.:../lib/args4j-2.0.6.jar:../lib/trove-3.0.3.jar'
+
+#for i in `seq 0 4`;
+#	do
+#year=201$i
+year=2014
+
+# January to September 
+for j in `seq 4 9`;
+	do
+		month=0$j
+		date="$year-$month"
+
+		echo $date
+
+		dpath125="../../../data/formatted_data/monthly/top125/$date"
+		opath125="../../../data/jgibbs/monthly/top125/$date"
+		llda125="$opath125$llda"
+		lda125="$opath125$lda"
+		send="$send125$date"
+
+		python ../../format-jgibbs.py --data $dpath125 --output $opath125
+		gzip -f $llda125
+		gzip -f $lda125
+		java -cp $lib jgibblda.LDA -est -ntopics 125 -dfile jgibbs-lda.txt.gz -dir $opath125 -model modelLDA
+		java -cp $lib jgibblda.LDA -est -ntopics 125 -dfile jgibbs-llda.txt.gz -dir $opath125 -model modelLLDA
+		python ../../notify.py morganeciot@gmail.com $send enterprise
+
+		dpath500="../../../data/formatted_data/monthly/top500/$date"
+		opath500="../../../data/jgibbs/monthly/top500/$date"
+		llda500="$opath500$llda"
+		lda500="$opath500$lda"
+		send="$send500$date"
+
+		python ../../format-jgibbs.py --data $dpath500 --output $opath500
+		gzip -f $llda500
+		gzip -f $lda500
+		java -cp $lib jgibblda.LDA -est -ntopics 500 -dfile jgibbs-lda.txt.gz -dir $opath500 -model modelLDA
+		java -cp $lib jgibblda.LDA -est -ntopics 500 -dfile jgibbs-llda.txt.gz -dir $opath500 -model modelLLDA
+		python ../../notify.py morganeciot@gmail.com $send enterprise
+
+	done
+
+# October to December 
+for j in `seq 10 12`;
+    do
+        month=$j
+        date="$year-$month"
+
+        echo $date
+
+       	dpath125="../../../data/formatted_data/monthly/top125/$date"
+		opath125="../../../data/jgibbs/monthly/top125/$date"
+		llda125="$opath125$llda"
+		lda125="$opath125$lda"
+		send="$send125$date"
+
+		python ../../format-jgibbs.py --data $dpath125 --output $opath125
+		gzip -f $llda125
+		gzip -f $lda125
+		java -cp $lib jgibblda.LDA -est -ntopics 125 -dfile jgibbs-lda.txt.gz -dir $opath125 -model modelLDA
+		java -cp $lib jgibblda.LDA -est -ntopics 125 -dfile jgibbs-llda.txt.gz -dir $opath125 -model modelLLDA
+		python ../../notify.py morganeciot@gmail.com $send enterprise
+
+		dpath500="../../../data/formatted_data/monthly/top500/$date"
+		opath500="../../../data/jgibbs/monthly/top500/$date"
+		llda500="$opath500$llda"
+		lda500="$opath500$lda"
+		send="$send500$date"
+
+		python ../../format-jgibbs.py --data $dpath500 --output $opath500
+		gzip -f $llda500
+		gzip -f $lda500
+		java -cp $lib jgibblda.LDA -est -ntopics 500 -dfile jgibbs-lda.txt.gz -dir $opath500 -model modelLDA
+		java -cp $lib jgibblda.LDA -est -ntopics 500 -dfile jgibbs-llda.txt.gz -dir $opath500 -model modelLLDA
+		python ../../notify.py morganeciot@gmail.com $send enterprise
+    done    
+#done
+
+

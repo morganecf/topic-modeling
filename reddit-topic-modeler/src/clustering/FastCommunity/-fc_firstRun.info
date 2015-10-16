@@ -1,0 +1,15 @@
+FASTCOMMUNITY_INFERENCE_ALGORITHM
+START-----:	Sat Nov 15 16:52:45 2014
+---FILES--------
+DIRECTORY-:	
+F_IN------:	community.pairs
+F_JOINS---:	-fc_firstRun.joins
+F_INFO----:	-fc_firstRun.info
+---NET_STATS----
+MAXID-----:	0
+NUMNODES--:	0
+NUMEDGES--:	0
+---MODULARITY---
+MAXQ------:	-4.29497e+09
+STEP------:	0
+EXIT------:	Sat Nov 15 16:52:45 2014

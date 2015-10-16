@@ -1,0 +1,710 @@
+116 nodes (unique subreddits)
+135 edges
+Gone through 116 out of 15000 input subreddits
+
+245 nodes (unique subreddits)
+2201 edges
+Gone through 117 out of 15000 input subreddits
+
+940 nodes (unique subreddits)
+8536 edges
+Gone through 118 out of 15000 input subreddits
+
+4150 nodes (unique subreddits)
+43142 edges
+Gone through 119 out of 15000 input subreddits
+
+13423 nodes (unique subreddits)
+149746 edges
+Gone through 120 out of 15000 input subreddits
+
+25307 nodes (unique subreddits)
+234031 edges
+Gone through 121 out of 15000 input subreddits
+
+32942 nodes (unique subreddits)
+282198 edges
+Gone through 122 out of 15000 input subreddits
+
+35868 nodes (unique subreddits)
+295377 edges
+Gone through 123 out of 15000 input subreddits
+
+36799 nodes (unique subreddits)
+299004 edges
+Gone through 124 out of 15000 input subreddits
+
+37056 nodes (unique subreddits)
+299863 edges
+Gone through 125 out of 15000 input subreddits
+
+37128 nodes (unique subreddits)
+300126 edges
+Gone through 126 out of 15000 input subreddits
+
+37277 nodes (unique subreddits)
+300244 edges
+Gone through 265 out of 15000 input subreddits
+
+37359 nodes (unique subreddits)
+300352 edges
+Gone through 336 out of 15000 input subreddits
+
+37527 nodes (unique subreddits)
+300452 edges
+Gone through 503 out of 15000 input subreddits
+
+37618 nodes (unique subreddits)
+300658 edges
+Gone through 580 out of 15000 input subreddits
+
+37730 nodes (unique subreddits)
+300762 edges
+Gone through 674 out of 15000 input subreddits
+
+37830 nodes (unique subreddits)
+300869 edges
+Gone through 760 out of 15000 input subreddits
+
+37979 nodes (unique subreddits)
+300969 edges
+Gone through 902 out of 15000 input subreddits
+
+38165 nodes (unique subreddits)
+301073 edges
+Gone through 1090 out of 15000 input subreddits
+
+38249 nodes (unique subreddits)
+301174 edges
+Gone through 1169 out of 15000 input subreddits
+
+38414 nodes (unique subreddits)
+301274 edges
+Gone through 1299 out of 15000 input subreddits
+
+38555 nodes (unique subreddits)
+301408 edges
+Gone through 1434 out of 15000 input subreddits
+
+38596 nodes (unique subreddits)
+301530 edges
+Gone through 1435 out of 15000 input subreddits
+
+38610 nodes (unique subreddits)
+301643 edges
+Gone through 1439 out of 15000 input subreddits
+
+38685 nodes (unique subreddits)
+301743 edges
+Gone through 1519 out of 15000 input subreddits
+
+38912 nodes (unique subreddits)
+301843 edges
+Gone through 1760 out of 15000 input subreddits
+
+39042 nodes (unique subreddits)
+301944 edges
+Gone through 1870 out of 15000 input subreddits
+
+39088 nodes (unique subreddits)
+302083 edges
+Gone through 1871 out of 15000 input subreddits
+
+39220 nodes (unique subreddits)
+302183 edges
+Gone through 1973 out of 15000 input subreddits
+
+39306 nodes (unique subreddits)
+302284 edges
+Gone through 2044 out of 15000 input subreddits
+
+39494 nodes (unique subreddits)
+302412 edges
+Gone through 2239 out of 15000 input subreddits
+
+39602 nodes (unique subreddits)
+302550 edges
+Gone through 2343 out of 15000 input subreddits
+
+39673 nodes (unique subreddits)
+302654 edges
+Gone through 2399 out of 15000 input subreddits
+
+39766 nodes (unique subreddits)
+302755 edges
+Gone through 2481 out of 15000 input subreddits
+
+39788 nodes (unique subreddits)
+302889 edges
+Gone through 2482 out of 15000 input subreddits
+
+39852 nodes (unique subreddits)
+302989 edges
+Gone through 2531 out of 15000 input subreddits
+
+40072 nodes (unique subreddits)
+303090 edges
+Gone through 2762 out of 15000 input subreddits
+
+40216 nodes (unique subreddits)
+303192 edges
+Gone through 2876 out of 15000 input subreddits
+
+40446 nodes (unique subreddits)
+303292 edges
+Gone through 3100 out of 15000 input subreddits
+
+40582 nodes (unique subreddits)
+303403 edges
+Gone through 3221 out of 15000 input subreddits
+
+40629 nodes (unique subreddits)
+305006 edges
+Gone through 3222 out of 15000 input subreddits
+
+40867 nodes (unique subreddits)
+305117 edges
+Gone through 3472 out of 15000 input subreddits
+
+40905 nodes (unique subreddits)
+305248 edges
+Gone through 3473 out of 15000 input subreddits
+
+40939 nodes (unique subreddits)
+305352 edges
+Gone through 3493 out of 15000 input subreddits
+
+41081 nodes (unique subreddits)
+305452 edges
+Gone through 3631 out of 15000 input subreddits
+
+41233 nodes (unique subreddits)
+305552 edges
+Gone through 3774 out of 15000 input subreddits
+
+41389 nodes (unique subreddits)
+305658 edges
+Gone through 3916 out of 15000 input subreddits
+
+41577 nodes (unique subreddits)
+305761 edges
+Gone through 4095 out of 15000 input subreddits
+
+41635 nodes (unique subreddits)
+305863 edges
+Gone through 4138 out of 15000 input subreddits
+
+41807 nodes (unique subreddits)
+305969 edges
+Gone through 4311 out of 15000 input subreddits
+
+41857 nodes (unique subreddits)
+306092 edges
+Gone through 4336 out of 15000 input subreddits
+
+41888 nodes (unique subreddits)
+306333 edges
+Gone through 4358 out of 15000 input subreddits
+
+41920 nodes (unique subreddits)
+306445 edges
+Gone through 4384 out of 15000 input subreddits
+
+42115 nodes (unique subreddits)
+306545 edges
+Gone through 4585 out of 15000 input subreddits
+
+42151 nodes (unique subreddits)
+306655 edges
+Gone through 4586 out of 15000 input subreddits
+
+42210 nodes (unique subreddits)
+306758 edges
+Gone through 4642 out of 15000 input subreddits
+
+42388 nodes (unique subreddits)
+306860 edges
+Gone through 4811 out of 15000 input subreddits
+
+42609 nodes (unique subreddits)
+306967 edges
+Gone through 5031 out of 15000 input subreddits
+
+42664 nodes (unique subreddits)
+307071 edges
+Gone through 5072 out of 15000 input subreddits
+
+42800 nodes (unique subreddits)
+307172 edges
+Gone through 5217 out of 15000 input subreddits
+
+42931 nodes (unique subreddits)
+307273 edges
+Gone through 5358 out of 15000 input subreddits
+
+42997 nodes (unique subreddits)
+307415 edges
+Gone through 5400 out of 15000 input subreddits
+
+43116 nodes (unique subreddits)
+307515 edges
+Gone through 5523 out of 15000 input subreddits
+
+43152 nodes (unique subreddits)
+307622 edges
+Gone through 5532 out of 15000 input subreddits
+
+43228 nodes (unique subreddits)
+307745 edges
+Gone through 5613 out of 15000 input subreddits
+
+43323 nodes (unique subreddits)
+307845 edges
+Gone through 5703 out of 15000 input subreddits
+
+43471 nodes (unique subreddits)
+307946 edges
+Gone through 5860 out of 15000 input subreddits
+
+43617 nodes (unique subreddits)
+308048 edges
+Gone through 6002 out of 15000 input subreddits
+
+43649 nodes (unique subreddits)
+308188 edges
+Gone through 6003 out of 15000 input subreddits
+
+43733 nodes (unique subreddits)
+308291 edges
+Gone through 6094 out of 15000 input subreddits
+
+43889 nodes (unique subreddits)
+308391 edges
+Gone through 6247 out of 15000 input subreddits
+
+43933 nodes (unique subreddits)
+308494 edges
+Gone through 6278 out of 15000 input subreddits
+
+44082 nodes (unique subreddits)
+308595 edges
+Gone through 6439 out of 15000 input subreddits
+
+44105 nodes (unique subreddits)
+308706 edges
+Gone through 6447 out of 15000 input subreddits
+
+44263 nodes (unique subreddits)
+308822 edges
+Gone through 6618 out of 15000 input subreddits
+
+44372 nodes (unique subreddits)
+308935 edges
+Gone through 6714 out of 15000 input subreddits
+
+44442 nodes (unique subreddits)
+309039 edges
+Gone through 6750 out of 15000 input subreddits
+
+44564 nodes (unique subreddits)
+309141 edges
+Gone through 6864 out of 15000 input subreddits
+
+44652 nodes (unique subreddits)
+309250 edges
+Gone through 6947 out of 15000 input subreddits
+
+44691 nodes (unique subreddits)
+309866 edges
+Gone through 6948 out of 15000 input subreddits
+
+44891 nodes (unique subreddits)
+309966 edges
+Gone through 7166 out of 15000 input subreddits
+
+45103 nodes (unique subreddits)
+310067 edges
+Gone through 7394 out of 15000 input subreddits
+
+45244 nodes (unique subreddits)
+310193 edges
+Gone through 7530 out of 15000 input subreddits
+
+45289 nodes (unique subreddits)
+310308 edges
+Gone through 7558 out of 15000 input subreddits
+
+45317 nodes (unique subreddits)
+310462 edges
+Gone through 7559 out of 15000 input subreddits
+
+45425 nodes (unique subreddits)
+310565 edges
+Gone through 7660 out of 15000 input subreddits
+
+45447 nodes (unique subreddits)
+310867 edges
+Gone through 7663 out of 15000 input subreddits
+
+45587 nodes (unique subreddits)
+310970 edges
+Gone through 7694 out of 15000 input subreddits
+
+45741 nodes (unique subreddits)
+311071 edges
+Gone through 7835 out of 15000 input subreddits
+
+45893 nodes (unique subreddits)
+311193 edges
+Gone through 7998 out of 15000 input subreddits
+
+45934 nodes (unique subreddits)
+311468 edges
+Gone through 7999 out of 15000 input subreddits
+
+45995 nodes (unique subreddits)
+311568 edges
+Gone through 8056 out of 15000 input subreddits
+
+46127 nodes (unique subreddits)
+311676 edges
+Gone through 8193 out of 15000 input subreddits
+
+46343 nodes (unique subreddits)
+311783 edges
+Gone through 8426 out of 15000 input subreddits
+
+46460 nodes (unique subreddits)
+311885 edges
+Gone through 8534 out of 15000 input subreddits
+
+46493 nodes (unique subreddits)
+311995 edges
+Gone through 8535 out of 15000 input subreddits
+
+46670 nodes (unique subreddits)
+312095 edges
+Gone through 8721 out of 15000 input subreddits
+
+46851 nodes (unique subreddits)
+312195 edges
+Gone through 8904 out of 15000 input subreddits
+
+46995 nodes (unique subreddits)
+312327 edges
+Gone through 9053 out of 15000 input subreddits
+
+47140 nodes (unique subreddits)
+312428 edges
+Gone through 9185 out of 15000 input subreddits
+
+47198 nodes (unique subreddits)
+312532 edges
+Gone through 9224 out of 15000 input subreddits
+
+47260 nodes (unique subreddits)
+312651 edges
+Gone through 9285 out of 15000 input subreddits
+
+47474 nodes (unique subreddits)
+312753 edges
+Gone through 9519 out of 15000 input subreddits
+
+47584 nodes (unique subreddits)
+312853 edges
+Gone through 9628 out of 15000 input subreddits
+
+47812 nodes (unique subreddits)
+312953 edges
+Gone through 9866 out of 15000 input subreddits
+
+47943 nodes (unique subreddits)
+313065 edges
+Gone through 9994 out of 15000 input subreddits
+
+47974 nodes (unique subreddits)
+313199 edges
+Gone through 9995 out of 15000 input subreddits
+
+48076 nodes (unique subreddits)
+313299 edges
+Gone through 10122 out of 15000 input subreddits
+
+48124 nodes (unique subreddits)
+313401 edges
+Gone through 10164 out of 15000 input subreddits
+
+48221 nodes (unique subreddits)
+313502 edges
+Gone through 10245 out of 15000 input subreddits
+
+48249 nodes (unique subreddits)
+313617 edges
+Gone through 10271 out of 15000 input subreddits
+
+48387 nodes (unique subreddits)
+313818 edges
+Gone through 10454 out of 15000 input subreddits
+
+48430 nodes (unique subreddits)
+313964 edges
+Gone through 10455 out of 15000 input subreddits
+
+48493 nodes (unique subreddits)
+314064 edges
+Gone through 10517 out of 15000 input subreddits
+
+48568 nodes (unique subreddits)
+314166 edges
+Gone through 10595 out of 15000 input subreddits
+
+48628 nodes (unique subreddits)
+314268 edges
+Gone through 10650 out of 15000 input subreddits
+
+48675 nodes (unique subreddits)
+314369 edges
+Gone through 10695 out of 15000 input subreddits
+
+48766 nodes (unique subreddits)
+314478 edges
+Gone through 10810 out of 15000 input subreddits
+
+48797 nodes (unique subreddits)
+314809 edges
+Gone through 10811 out of 15000 input subreddits
+
+48826 nodes (unique subreddits)
+315047 edges
+Gone through 10840 out of 15000 input subreddits
+
+48871 nodes (unique subreddits)
+315149 edges
+Gone through 10880 out of 15000 input subreddits
+
+48952 nodes (unique subreddits)
+315251 edges
+Gone through 10976 out of 15000 input subreddits
+
+49035 nodes (unique subreddits)
+315433 edges
+Gone through 11071 out of 15000 input subreddits
+
+49084 nodes (unique subreddits)
+315554 edges
+Gone through 11072 out of 15000 input subreddits
+
+49098 nodes (unique subreddits)
+315706 edges
+Gone through 11086 out of 15000 input subreddits
+
+49273 nodes (unique subreddits)
+315807 edges
+Gone through 11309 out of 15000 input subreddits
+
+49372 nodes (unique subreddits)
+315908 edges
+Gone through 11418 out of 15000 input subreddits
+
+49471 nodes (unique subreddits)
+316008 edges
+Gone through 11545 out of 15000 input subreddits
+
+49580 nodes (unique subreddits)
+316112 edges
+Gone through 11676 out of 15000 input subreddits
+
+49610 nodes (unique subreddits)
+316327 edges
+Gone through 11677 out of 15000 input subreddits
+
+49659 nodes (unique subreddits)
+316773 edges
+Gone through 11678 out of 15000 input subreddits
+
+49734 nodes (unique subreddits)
+316907 edges
+Gone through 11763 out of 15000 input subreddits
+
+49754 nodes (unique subreddits)
+317023 edges
+Gone through 11764 out of 15000 input subreddits
+
+49871 nodes (unique subreddits)
+317123 edges
+Gone through 11901 out of 15000 input subreddits
+
+49894 nodes (unique subreddits)
+317254 edges
+Gone through 11902 out of 15000 input subreddits
+
+50010 nodes (unique subreddits)
+317359 edges
+Gone through 12041 out of 15000 input subreddits
+
+50090 nodes (unique subreddits)
+317464 edges
+Gone through 12134 out of 15000 input subreddits
+
+50176 nodes (unique subreddits)
+317566 edges
+Gone through 12223 out of 15000 input subreddits
+
+50215 nodes (unique subreddits)
+317672 edges
+Gone through 12250 out of 15000 input subreddits
+
+50226 nodes (unique subreddits)
+317913 edges
+Gone through 12258 out of 15000 input subreddits
+
+50359 nodes (unique subreddits)
+318022 edges
+Gone through 12444 out of 15000 input subreddits
+
+50382 nodes (unique subreddits)
+318163 edges
+Gone through 12445 out of 15000 input subreddits
+
+50407 nodes (unique subreddits)
+318382 edges
+Gone through 12446 out of 15000 input subreddits
+
+50428 nodes (unique subreddits)
+318488 edges
+Gone through 12467 out of 15000 input subreddits
+
+50471 nodes (unique subreddits)
+318595 edges
+Gone through 12509 out of 15000 input subreddits
+
+50588 nodes (unique subreddits)
+318695 edges
+Gone through 12662 out of 15000 input subreddits
+
+50615 nodes (unique subreddits)
+318795 edges
+Gone through 12669 out of 15000 input subreddits
+
+50727 nodes (unique subreddits)
+318899 edges
+Gone through 12803 out of 15000 input subreddits
+
+50821 nodes (unique subreddits)
+319010 edges
+Gone through 12906 out of 15000 input subreddits
+
+50900 nodes (unique subreddits)
+319112 edges
+Gone through 12986 out of 15000 input subreddits
+
+51065 nodes (unique subreddits)
+319213 edges
+Gone through 13173 out of 15000 input subreddits
+
+51181 nodes (unique subreddits)
+319326 edges
+Gone through 13293 out of 15000 input subreddits
+
+51252 nodes (unique subreddits)
+319427 edges
+Gone through 13360 out of 15000 input subreddits
+
+51292 nodes (unique subreddits)
+319534 edges
+Gone through 13397 out of 15000 input subreddits
+
+51322 nodes (unique subreddits)
+319635 edges
+Gone through 13420 out of 15000 input subreddits
+
+51352 nodes (unique subreddits)
+319753 edges
+Gone through 13436 out of 15000 input subreddits
+
+51428 nodes (unique subreddits)
+319863 edges
+Gone through 13501 out of 15000 input subreddits
+
+51512 nodes (unique subreddits)
+319969 edges
+Gone through 13584 out of 15000 input subreddits
+
+51580 nodes (unique subreddits)
+320070 edges
+Gone through 13649 out of 15000 input subreddits
+
+51731 nodes (unique subreddits)
+320173 edges
+Gone through 13809 out of 15000 input subreddits
+
+51780 nodes (unique subreddits)
+320274 edges
+Gone through 13833 out of 15000 input subreddits
+
+51895 nodes (unique subreddits)
+320382 edges
+Gone through 13936 out of 15000 input subreddits
+
+51983 nodes (unique subreddits)
+320482 edges
+Gone through 14034 out of 15000 input subreddits
+
+52116 nodes (unique subreddits)
+320599 edges
+Gone through 14168 out of 15000 input subreddits
+
+52150 nodes (unique subreddits)
+320706 edges
+Gone through 14170 out of 15000 input subreddits
+
+52220 nodes (unique subreddits)
+320806 edges
+Gone through 14248 out of 15000 input subreddits
+
+52249 nodes (unique subreddits)
+320934 edges
+Gone through 14249 out of 15000 input subreddits
+
+52375 nodes (unique subreddits)
+321039 edges
+Gone through 14384 out of 15000 input subreddits
+
+52506 nodes (unique subreddits)
+321139 edges
+Gone through 14533 out of 15000 input subreddits
+
+52546 nodes (unique subreddits)
+321240 edges
+Gone through 14541 out of 15000 input subreddits
+
+52633 nodes (unique subreddits)
+321352 edges
+Gone through 14625 out of 15000 input subreddits
+
+52656 nodes (unique subreddits)
+321520 edges
+Gone through 14626 out of 15000 input subreddits
+
+52685 nodes (unique subreddits)
+321748 edges
+Gone through 14627 out of 15000 input subreddits
+
+52788 nodes (unique subreddits)
+321848 edges
+Gone through 14751 out of 15000 input subreddits
+
+52943 nodes (unique subreddits)
+321948 edges
+Gone through 14932 out of 15000 input subreddits
+
+52980 nodes (unique subreddits)
+322048 edges
+Gone through 14944 out of 15000 input subreddits
+
+53044 nodes (unique subreddits)
+322123 edges
+
+53048 nodes (unique subreddits)
+322125 edges
+

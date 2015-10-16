@@ -1,0 +1,32 @@
+Size 	 Num with this size:
+2	1144
+3	97
+4	23
+5	12
+8	3
+43	2
+11	2
+6	2
+21445	1
+2033	1
+485	1
+452	1
+333	1
+286	1
+231	1
+222	1
+125	1
+98	1
+55	1
+32	1
+31	1
+23	1
+22	1
+19	1
+14	1
+7	1
+
+Number of clusters: 1303
+Number of nodes: 28788
+Number of clusters smaller than 5: 3
+Number of clusters larger than 100: 9

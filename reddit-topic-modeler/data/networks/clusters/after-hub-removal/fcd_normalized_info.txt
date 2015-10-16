@@ -1,0 +1,50 @@
+Size 	 Num with this size:
+1	16232
+2	3016
+3	493
+4	208
+5	90
+6	48
+7	33
+8	24
+9	17
+10	12
+11	10
+17	6
+14	5
+23	4
+15	4
+12	4
+21	3
+16	3
+31	2
+24	2
+20	2
+18	2
+409	1
+367	1
+232	1
+171	1
+136	1
+78	1
+75	1
+59	1
+55	1
+50	1
+45	1
+40	1
+39	1
+38	1
+35	1
+32	1
+30	1
+28	1
+27	1
+22	1
+19	1
+13	1
+
+Number of clusters: 20242
+Number of nodes: 28788
+Number of clusters smaller than 5: 4
+Number of clusters larger than 100: 5

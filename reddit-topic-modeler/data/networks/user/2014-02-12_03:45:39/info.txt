@@ -1,0 +1,6 @@
+63451 users with submission activity
+66097 users with comment activity
+67635 total users
+5754061 edges in submission user network
+4271522 edges in comment user network
+4278985 edges in total user network

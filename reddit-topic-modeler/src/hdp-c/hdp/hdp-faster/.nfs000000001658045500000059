@@ -1,0 +1,12 @@
+### HDP INFERENCE 125
+#./hdp --test_data ../../../../data/formatted_data/twitter/temporal/2014-03/tweets_gender_temporal.txt --model_prefix ../../../../data/HDP/monthly/top125/2014-03/final --directory ../../../../data/twitter/topic_inference/hdp/temporal/top125/2014-03
+#python ../../../notify.py morganeciot@gmail.com 'hdp inf 125 03' enterprise
+#./hdp --test_data ../../../../data/formatted_data/twitter/temporal//2014-06/tweets_gender_temporal.txt --model_prefix ../../../../data/HDP/monthly/top125/2014-06/final --directory ../../../../data/twitter/topic_inference/hdp/temporal/top125/2014-06
+#python ../../../notify.py morganeciot@gmail.com 'hdp inf 125 06' enterprise
+
+./hdp --test_data ../../../../data/formatted_data/temporal/2014-08/tweets_gender_temporal.txt --model_prefix ../../../../data/HDP/monthly/top125/2014-08/final --directory ../../../../data/twitter/topic_inference/hdp/temporal/top125/2014-08
+python ../../../notify.py morganeciot@gmail.com 'hdp inf 125 08' enterprise
+./hdp --test_data ../../../../data/formatted_data/temporal/2014-09/tweets_gender_temporal.txt --model_prefix ../../../../data/HDP/monthly/top125/2014-09/final --directory ../../../../data/twitter/topic_inference/hdp/temporal/top125/2014-09
+python ../../../notify.py morganeciot@gmail.com 'hdp inf 125 09' enterprise
+./hdp --test_data ../../../../data/formatted_data/temporal/2014-11/tweets_gender_temporal.txt --model_prefix ../../../../data/HDP/monthly/top125/2014-11/final --directory ../../../../data/twitter/topic_inference/hdp/temporal/top125/2014-11
+python ../../../notify.py morganeciot@gmail.com 'hdp inf 125 11' enterprise

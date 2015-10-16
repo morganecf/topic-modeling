@@ -1,0 +1,21 @@
+Size 	 Num with this size:
+1	3430
+2	1211
+3	209
+4	86
+5	42
+6	19
+7	12
+8	9
+12	3
+10	3
+9	3
+19	1
+18	1
+13	1
+11	1
+
+Number of clusters: 5031
+Number of nodes: 7457
+Number of clusters smaller than 5: 4
+Number of clusters larger than 100: 0

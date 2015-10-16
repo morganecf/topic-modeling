@@ -1,0 +1,3 @@
+politics	soccer	9606
+soccer	nfl	9962
+politics	nfl	7566

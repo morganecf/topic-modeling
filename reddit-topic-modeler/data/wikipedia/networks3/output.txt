@@ -1,0 +1,42 @@
+Number of iterations: 74508
+Wikipages match stats:
+Number of wikipage-subreddit matches: 85175
+Number of wikipage-subreddit matches present in networks: 13447	15.79%
+	Related: 4125	30.68%
+	Xpost: 4435	32.98%
+	Submission: 10401	77.35%
+	Comment: 6039	44.91%
+	Subdomain: 1377	10.24%
+Number of wikipages-subreddit matches NOT present in networks: 49969	58.67%
+Number to match (to start with): 106414
+Number of unmatched subreddits present in networks: 24836	23.34%
+	By volume: 2499223	84.22%
+	Related: 4124	16.60%
+		Volume: 1497366	59.91%
+	Xpost: 11292	45.47%
+		Volume: 2007311	80.32%
+	Submission: 16246	65.41%
+		Volume: 2214397	88.60%
+	Comment: 7460	30.04%
+		Volume: 2052229	82.11%
+	Subdomain: 3780	15.22%
+		Volume: 1291277	51.67%
+Number of unmatched subreddits NOT present in networks: 81578	76.66%
+	By volume: 57096	15.78%
+
+Out of unmatched subreddits present in networks:
+Number matched: 21759	87.61%
+	Volume: 2442127	97.72
+	Using related network: 2382	10.95	%
+	Using xpost network: 4608	21.18%
+	Using submission network: 12400	56.99%
+	Using comment network: 1105	5.08%
+	Using subdomain network: 1264	5.81%
+Number left to match: 3077	12.39%
+	Volume: 57096	2.28%
+
+Heuristic stats:
+Average max weight: 1002.59662668
+Average max ratio: 19.6239574598
+
+Average number of matching neighbors found during match: 928.815662484

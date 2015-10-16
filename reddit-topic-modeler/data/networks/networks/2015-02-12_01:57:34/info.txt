@@ -1,0 +1,6 @@
+751 subreddits
+496 subdomain edges
+210 xpost edges
+9045 urls total
+488859 total unaggregated domain edges
+211461 aggregated domain edges
