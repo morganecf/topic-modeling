@@ -1,0 +1,49 @@
+Some basic questions:
+  Which domains do I visit the most?
+  Which domains do I spend the most time on?
+  Which domains do I access directly (as opposed to through google?)
+  For heavy-usage domains, what are the top subdomains? Who do I message the most?
+  Which categories do I spend the most time on? (messaging, email, googling, videos, work/code, news)
+  How do I use google? (search terms)
+  How much time do I spend per day on different categories?
+  What does weekend vs. weekly usage look like? What does morning vs. afternoon vs. night usage look like?
+  What are the most common n-grams for url titles?
+  How does all this change over time?
+  What are the most common n-grams for search terms?
+  When do I watch netflix?
+  When do I message?
+  When do I email?
+More advanced:
+  What are the most common n-grams (websites visited sequentially)? Can we model frequency of opening up messaging apps like messenger/facebook/slack?
+  Which topics are present? Which topics do I spend the most time on? How do topics change over time?
+    Using LDA
+    Using more primitive dimensionality reduction techniques
+
+
+Note: current browser history starts at May 17th, 2016
+
+
+Supervised LDA:
+
+In supervised latent Dirichlet allocation (sLDA), we add to LDA a response variable associated
+with each document. As mentioned, this variable might be the number of stars given to a movie, a
+count of the users in an on-line community who marked an article interesting, or the category of a
+document. We jointly model the documents and the responses, in order to find latent topics that will
+best predict the response variables for future unlabeled documents.
+
+Neural networks: use a NN to calculate the posterior.
+
+Variational autoencoders:
+
+Neural style transfer: use 2 word2vec models, one for each author.
+"Translate" a model from one author to another by taking each context from author1 and using model2 to
+predict word author2 would have used in that context. This gives you sentence structure from author1,
+but words from author2.
+
+Tools:
+- Stanford CoreNLP: http://stanfordnlp.github.io/CoreNLP/
+- Mr.LDA (scalable)
+- gensim (python)
+- MALLET (java): http://programminghistorian.org/lessons/topic-modeling-and-mallet
+
+Very good topic modeling reading list: http://www.biasedestimates.com/p/topic-models-reading-list.html
