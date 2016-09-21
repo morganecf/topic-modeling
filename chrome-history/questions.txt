@@ -18,32 +18,45 @@ More advanced:
   Which topics are present? Which topics do I spend the most time on? How do topics change over time?
     Using LDA
     Using more primitive dimensionality reduction techniques
+  Can we predict when I'll visit a certain website? (use history features)
 
+
+History features: statistics on gap between events (page or subdomain visit):
+  Event count over history range (1W, 4W, 16W)
+  Average time gap beween events
+  Median time gap between events
+  Standard dev. of time gap between events
+  25% percentile of time gaps between events
+  75% percentile of time gaps between events
+  10% percentile of time gaps between events
+  90% percentile of time gaps between events
+  Time gap between start and last event date
+  Time gap between start and average event date
+  Last value, second to last value, third to last value
+  Sum
+  Average
+  Median
+  Standard dev
+  Mean absolute dev
+  Min
+  Max
+  25% percentile
+  75% percentile
+  10% percentile
+  90% percentile
+  Slope
+  Most frequent value
+  Entropy
+  Sequences
+  ....All should be computed over a history range (1W, 4W, 16W, or other)
+To reduce the number of features, compute feature impact on xgboost trained on a subsample of the data, and keep top N features
+  default = 50
+
+>> Events should be things like messenger/slack/google/github visit
 
 Note: current browser history starts at May 17th, 2016
 
 
-Supervised LDA:
-
-In supervised latent Dirichlet allocation (sLDA), we add to LDA a response variable associated
-with each document. As mentioned, this variable might be the number of stars given to a movie, a
-count of the users in an on-line community who marked an article interesting, or the category of a
-document. We jointly model the documents and the responses, in order to find latent topics that will
-best predict the response variables for future unlabeled documents.
-
-Neural networks: use a NN to calculate the posterior.
-
-Variational autoencoders:
-
-Neural style transfer: use 2 word2vec models, one for each author.
-"Translate" a model from one author to another by taking each context from author1 and using model2 to
-predict word author2 would have used in that context. This gives you sentence structure from author1,
-but words from author2.
-
-Tools:
-- Stanford CoreNLP: http://stanfordnlp.github.io/CoreNLP/
-- Mr.LDA (scalable)
-- gensim (python)
-- MALLET (java): http://programminghistorian.org/lessons/topic-modeling-and-mallet
-
-Very good topic modeling reading list: http://www.biasedestimates.com/p/topic-models-reading-list.html
+TODO
+- visualize with seaborn or something
+- visualize with vega

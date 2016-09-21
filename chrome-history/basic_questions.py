@@ -4,7 +4,8 @@ import pandas as pd
 from datetime import datetime
 from sklearn.feature_extraction.text import CountVectorizer
 
-
+# january 1st, 1601 - first year of Gregorian cycle
+base_time = 11644473600000000
 url_regex = re.compile(r'(http|https):\/\/(www\.)?([a-zA-Z0-9.:_-]+)\/')
 
 def to_domain(url):
@@ -19,6 +20,10 @@ def to_domain(url):
 def is_weekday(ts):
   wd = ts.weekday()
   return wd >= 0 and wd < 5
+
+
+def to_timestamp(t):
+  return pd.Timestamp(datetime.fromtimestamp((t - base_time) / 1000000))
 
 
 '''
@@ -50,7 +55,7 @@ def get_search_ngrams():
 Which domains do I visit the most?
 '''
 def get_domains():
-  df = pd.read_csv('urls.csv')
+  df = pd.read_csv('data/urls.csv')
 
   # add column of domains
   df['domain'] = df['url'].map(to_domain)
@@ -76,11 +81,11 @@ Which domains do I spend the most time on?
 '''
 def get_time_spent():
   # read in urls
-  urls = pd.DataFrame(pd.read_csv('urls.csv'), columns=['id', 'url'])
+  urls = pd.DataFrame(pd.read_csv('data/urls.csv'), columns=['id', 'url'])
   urls.set_index('id')
 
   # read in visits
-  visits = pd.DataFrame(pd.read_csv('visits.csv'), columns=['url', 'visit_duration'])
+  visits = pd.DataFrame(pd.read_csv('data/visits.csv'), columns=['url', 'visit_duration'])
 
   # add columns for hours and minutes and days
   visits['visit_duration_min'] = visits['visit_duration'].map(lambda t: t / 6e+7)
@@ -106,76 +111,138 @@ def get_time_spent():
 
 
 '''
-Create time series count data. This isn't concerned with
-content, just whether or not a website was visited.
+Print time series and seasonality stats
 '''
-def time_series():
-  # january 1st, 1601 - first year of Gregorian cycle
-  base_time = 11644473600000000
+def get_event_data(event_domains):
+  # read in urls
+  urls = pd.DataFrame(pd.read_csv('data/urls.csv'), columns=['id', 'url'])
+  urls.set_index('id')
+
+  # convert urls to domains
+  urls['domain'] = urls['url'].map(to_domain)
 
   # read in visits
-  visits = pd.read_csv('visits.csv')
+  visits = pd.DataFrame(pd.read_csv('data/visits.csv'), columns=['url', 'visit_time'])
 
-  # convert to pd-digestible timestamps
-  dates = visits['visit_time'].map(lambda t: pd.Timestamp(datetime.fromtimestamp((t - base_time) / 1000000)))
+  # merge urls with visits, since visits only contain url id
+  merged = pd.merge(visits, urls, left_on='url', right_index=True, how='left')
 
-  # create series
-  ts = pd.Series(np.ones(dates.count()), dates)
+  # only keep event visits
+  event_df = merged[merged.domain.isin(event_domains)]
 
-  # workdays
-  workdays = filter(is_weekday, ts.index)
+  # create series out of these events
+  event_times = event_df.visit_time.map(to_timestamp)
+  events = pd.Series(np.ones(event_times.count()), event_times)
 
-  # weekends
-  weekends = filter(lambda t: not is_weekday(t), ts.index)
+  # weekdays this event happened
+  workdays = filter(is_weekday, events.index)
+
+  # weekend days this event happened
+  weekends = filter(lambda e: not is_weekday(e), events.index)
+
+  print 'Number of workdays:', len(workdays), '\t', len(workdays) / float(len(weekends) + len(workdays))
+  print 'Number of weekends:', len(weekends), '\t', len(weekends) / float(len(weekends) + len(workdays))
+  print
 
   ### series
 
   # group by month
-  month_ts = ts.groupby([lambda t: t.year, lambda t: t.month]).sum()
+  month_ts = events.groupby([lambda t: t.year, lambda t: t.month]).sum()
+  print 'Distribution since May (monthly level):'
+  print month_ts
+  print
 
   # group by day
-  day_ts = ts.groupby([lambda t: t.year, lambda t: t.month]).sum()
+  day_ts = events.groupby([lambda t: t.year, lambda t: t.month, lambda t: t.day]).sum()
+  print 'Distribution since May (daily level):'
+  print day_ts
+  print
 
   # group by hour of day
-  hour_ts = ts.groupby([lambda t: t.year, lambda t: t.month, lambda t: t.hour]).sum()
+  hour_ts = events.groupby([lambda t: t.year, lambda t: t.month, lambda t: t.day, lambda t: t.hour]).sum()
+  print 'Distribution since May (hourly level):'
+  print hour_ts
+  print
 
-  ### not series, aggregations
+  ### seasonality distribution
 
   # weekday
-  by_weekday = ts.groupby([lambda t: t.weekday()]).sum()
+  by_weekday = events.groupby([lambda t: t.weekday()]).sum()
+  print 'Counts by day of week:'
+  print by_weekday
+  print
 
   # hour of day
-  by_hour = ts.groupby([lambda t: t.hour]).sum()
+  by_hour = events.groupby([lambda t: t.hour]).sum()
+  print 'Counts by hour of day:'
+  print by_hour
+  print
 
   # hour of workday
-  by_workday_hour = ts.drop(weekends).groupby([lambda t: t.hour]).sum()
+  by_workday_hour = events.drop(weekends).groupby([lambda t: t.hour]).sum()
+  print 'Counts by hour of workday:'
+  print by_workday_hour
+  print
 
   # hour of weekend
-  by_weekend_hour = ts.drop(workdays).groupby([lambda t: t.hour]).sum()
+  by_weekend_hour = events.drop(workdays).groupby([lambda t: t.hour]).sum()
+  print 'Counts by hour of weekend:'
+  print by_weekend_hour
+  print
 
 
 '''
 When do I watch netflix?
 '''
 def netflix():
-  pass
+  get_event_data(['netflix.com'])
 
 
 '''
-When do I message?
+When do I message? (Slack, messenger, facebook)
 '''
 def messages():
-  pass
+  get_event_data(['messenger.com', 'facebook.com', 'cultofmelancholy.slack.com', 'l.facebook.com'])
 
 
 '''
-When do I email?
+When do I check email?
 '''
 def emails():
-  pass
+  get_event_data(['mail.google.com', 'gmail.com', 'photos.google.com', 'accounts.google.com'])
 
 
-get_time_spent()
+'''
+When do I work? (code/datarobot stuff)
+'''
+def work():
+  work_events = [
+    'docs.google.com',
+    'localhost:8000',
+    'github.com',
+    'datarobot.atlassian.net',
+    'jenkins.hq.datarobot.com:8080',
+    'staging.datarobot.com',
+    'stackoverflow.com',
+    'hangouts.google.com',
+    'calendar.google.com',
+    'app.datarobot.com',
+    'projects.invisionapp.com',
+    'lodash.com',
+    'app.greenhouse.io',
+    'docs.angularjs.org',
+    'atlassian.com',
+    'raw.githubusercontent.com'
+    ]
+  get_event_data(work_events)
+
+
+'''
+When do I consume news/entertainment?
+'''
+
+
+messages()
 
 # good pandas tutorial: https://github.com/brandon-rhodes/pycon-pandas-tutorial
 # create CLVs: https://github.com/bitly/data_hacks
